@@ -66,5 +66,6 @@ if st.session_state.submitted:
     bin_b = bins[1]["items"]
 
     st.subheader("Results")
-    st.write(f"Gay ({len(bin_a)}):", bin_a)
-    st.write(f"Not Gay ({len(bin_b)}):", bin_b)
+    st.write(f"{len(bin_a)} Gay people around..watch your back!")
+    st.write(f"{len(bin_b)} Not Gay people you can trust")
+    st.write("Fun fact: Thomas thinks you're gay!")
