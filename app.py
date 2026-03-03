@@ -5,7 +5,7 @@ st.set_page_config(page_title="Drag & Drop Voting", layout="wide")
 st.title("🗳️ Drag candidates into bins")
 
 # ---- Demo data ----
-CANDIDATES = ["Thomas", "Boris", "Eric", "Carlo", "Sohaib", "Javeed", "Moritz"]
+CANDIDATES = ["Thomas", "Boris", "Eric", "Nisha, "Carlo", "Sohaib", "Javeed", "Moritz"]
 
 # ---- Simple session “database” (per user session) ----
 if "submitted" not in st.session_state:
@@ -67,4 +67,4 @@ if st.session_state.submitted:
 
     st.write(f"{len(bin_a)} Gay people around..watch your back!")
     st.write(f"{len(bin_b)} Not Gay people you can trust")
-    st.write("Fun fact: Sohaib thinks you're gay!")
+    st.write("Fun fact: Moritz thinks you're gay!")
