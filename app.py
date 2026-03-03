@@ -5,7 +5,7 @@ st.set_page_config(page_title="Drag & Drop Voting", layout="wide")
 st.title("🗳️ Drag candidates into bins")
 
 # ---- Demo data ----
-CANDIDATES = ["Thomas", "Boris", "Eric", "Nisha, "Carlo", "Sohaib", "Javeed", "Moritz"]
+CANDIDATES = ["Thomas", "Boris", "Eric", "Nisha", "Carlo", "Sohaib", "Javeed", "Moritz"]
 
 # ---- Simple session “database” (per user session) ----
 if "submitted" not in st.session_state:
