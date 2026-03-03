@@ -67,4 +67,4 @@ if st.session_state.submitted:
 
     st.write(f"{len(bin_a)} Gay people around..watch your back!")
     st.write(f"{len(bin_b)} Not Gay people you can trust")
-    st.write("Fun fact: Thomas thinks you're gay!")
+    st.write("Fun fact: Sohaib thinks you're gay!")
